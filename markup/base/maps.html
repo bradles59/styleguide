@@ -1,0 +1,72 @@
+<div id="map"></div>
+    <script>
+      var map;
+      
+	  var myStyles =[
+    {
+        featureType: "poi",
+        elementType: "labels",
+        stylers: [
+              { visibility: "off" }
+        ]
+    }
+];
+
+	  
+	  function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: new google.maps.LatLng(-35.007800, 138.571193),
+          mapTypeId: 'roadmap'
+        });
+		
+        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        var icons = {
+          parking: {
+            icon: iconBase + 'parking_lot_maps.png'
+          },
+          library: {
+            icon: iconBase + 'library_maps.png'
+          },
+          info: {
+            icon: iconBase + 'info-i_maps.png'
+          }
+        };
+
+        var markerdat = require(['json!./markerdata.json'], function(data){
+			//should be loaded;
+		});
+
+        
+	  var marker = new google.maps.Marker({
+		position: markerdat.features[0].position,
+		icon: icons[markerdat.features[0].type].icon,
+		title: markerdat.features[0].title,
+		map: map
+	  });
+	  
+	  }
+		
+
+    </script>
+	    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgjGZXxDR-zUZxsMz46Z7cC1gZnDFtiQg&callback=initMap">
+    </script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
