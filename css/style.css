@@ -11,6 +11,24 @@ img, svg, video, audio {
 	width: 860px;
 }
 
+.blogBG {
+  background: #ABD3E4;
+}
+
+.blogHeading {
+color:#000;
+font-size: 30px;
+}
+
+.blogBody {
+color:#000;
+}
+
+.blogTimeDate {
+font-size:13px;
+color:#000;
+}
+
 
 
 /* -------------------------------------------------------------------------
