@@ -24,8 +24,8 @@ body {
 }
 
 .sg-header {
-  background: #51685d;
-  color: #fff;
+  background: #ABD3E4;
+  color: #5D85A8;
   padding-bottom: 0.75rem;
   padding-bottom: 12px; /* For older browsers */
   padding-top: 0.75rem;
@@ -51,8 +51,8 @@ body {
 }
 
 .sg-sidebar {
-  background: #697374;
-  color: #fff;
+  background: #5D85A8;
+  color: #F6F7EA;
   font-size: 80%;
   padding-left: 16px; /* For older browsers */
   padding-left: 1rem;
