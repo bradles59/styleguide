@@ -9,39 +9,34 @@
         });
 
         var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-        var icons = {
-          parking: {
-            icon: iconBase + 'parking_lot_maps.png'
-          },
-          library: {
-            icon: iconBase + 'library_maps.png'
-          },
-          info: {
-            icon: iconBase + 'info-i_maps.png'
-          }
-        };
+        var infoicon = iconBase + 'info-i_maps.png';
 
-        var features = [
-          {
-            position: new google.maps.LatLng(-34.929139, 138.604273),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-34.927235, 138.604996),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-34.926493, 138.596732),
-            type: 'info'
-          }
-        ];
+        var contentString = '<div id="content">'+
+            '<h1 class="firstHeading">Adelaide CBD</h1>'+
+            '<div id="bodyContent">'+
+            '<p>Adelaide is South Australia’s cosmopolitan coastal capital. Its ring of '+
+            'parkland on the River Torrens is home to renowned museums such as the '+
+            'Art Gallery of South Australia, displaying expansive collections including '+
+            'noted Indigenous art, and the South Australian Museum, devoted to natural '+
+            'history. The citys Adelaide Festival is an annual international arts '+
+            'gathering with spin-offs including fringe and film events.</p>'+
+            '</div>'+
+            '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+              content: contentString
+            });
 
         // Create markers.
-        features.forEach(function(feature) {
           var marker = new google.maps.Marker({
-            position: feature.position,
-            icon: icons[feature.type].icon,
+            position: new google.maps.LatLng(-34.928963, 138.600711),
+            icon: infoicon,
             map: map
           });
-        });
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });
+
       }
     </script>
     <script async defer
