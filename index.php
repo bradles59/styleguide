@@ -9,7 +9,7 @@
 
   <script language="JavaScript" type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
   <script language="JavaScript" type="text/javascript" src="/js/require.js"></script>
-  
+
   <!-- Style Guide Boilerplate Styles -->
   <link rel="stylesheet" href="css/sg-style.css">
   <!--[if lt IE 9]><link rel="stylesheet" href="css/sg-style-old-ie.css"><![endif]-->
@@ -130,4 +130,3 @@
   <script src="js/sg-scripts.js"></script>
 </body>
 </html>
-
