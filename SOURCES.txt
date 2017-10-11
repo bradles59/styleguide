@@ -1,3 +1,0 @@
-https://developers.google.com/maps/documentation/javascript/custom-markers //For making custom markers
-https://developers.google.com/maps/documentation/javascript/infowindows //Creating custom content windows
-https://stackoverflow.com/questions/7538444/how-do-i-remove-default-markers
