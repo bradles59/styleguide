@@ -6,18 +6,6 @@ function initMap() {
     mapTypeId: 'roadmap'
   });
 
-  var icons = [
-    {
-      bar: 'https://lh6.googleusercontent.com/oo6IEkt0yGkvX0oa6OT8UKVjWKHi7iCVTl4tzVPKPqzAUO5H0FCKZDxv6jvc5Sj5BU3LXPLIwN-pV48=w1920-h925'
-    },
-    {
-      shopping: 'https://lh5.googleusercontent.com/iLrXXBqNNrqEBnH4W3D4fQJa-SkWeShVzv2qxM8v8u-pWQHDIwSR7e8MCh4BTyGIbffPvT4qkzFwCK0=w1920-h925'
-    },
-    {
-      park: 'https://lh5.googleusercontent.com/8o4GQusV8q9DsSDt4UB1NthDinMf0pVcMJR8Fx5IrYFN7dL5lgmcpiaE1Nj2bD_rd1vT_W5pTDveI2w=w1920-h925'
-    }
-  ];
-
       var features = [
       {
         position: new google.maps.LatLng(-34.922908, 138.601179),
