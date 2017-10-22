@@ -3,9 +3,33 @@
   width: 640px;
 }
 
+body { 
+background-color: #3B4A4F;
+}
+
+h1 {
+  font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;
+  font-size: 30px;
+  text-align:center;
+  color: #ABD3E4;
+  text-shadow: 2px 2px #000000;
+}
+h2 {
+	font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;
+	font-size: 15px;
+	text-align:center;
+	color:#ABD3E4;
+	text-shadow: 1px 1px #000000;
+}
+
  #bodyContent {
   font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;
   font-size: 12px;
+  background-color: #3B4A4F;
+}
+
+.title {
+	text-align:center;
 }
 
 .firstHeading {
@@ -25,6 +49,7 @@ img, svg, video, audio {
 }
 
 #map {
+	margin:0 auto;
 	height: 800px;
 	width: 1200px;
 }

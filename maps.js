@@ -19,7 +19,7 @@ function initMap() {
             '<p>Source: http://rundlemall.com/about/about-rundle-mall/</p>'+
             '</div>'+
             '</div>',
-        icon: 'https://photos-5.dropbox.com/t/2/AADLpJStFH2g-_O_bhem-Kk-1sQSv4QjLBm4lBGMbvFwSg/12/80587277/png/32x32/1/_/1/2/departmentstore.png/EOiJ1j4YpEUgAigC/z5_2BiCzE-LPUPW8EP9sLpTL5iN1UDkSPN82d5JsKaQ?size=2048x1536&size_mode=3'
+        icon: 'https://i.imgur.com/ws95eZr.png'
       },
       {
         position: new google.maps.LatLng(-34.928559, 138.599916),
@@ -32,7 +32,7 @@ function initMap() {
             '<p>Source: http://www.adelaideparklands.com.au/victoria-square/</p>'+
             '</div>'+
             '</div>',
-        icon: 'https://photos-1.dropbox.com/t/2/AACa_r5CUx_ae-Wb3_Tpx4NXWb1tGDO901RGgceZjOJmTw/12/80587277/png/32x32/1/_/1/2/park.png/EOiJ1j4YpEUgAigC/XTzhGggmEd6uI6ZCsSK88YfljTOyUSLUhwt2V32ukcU?size=2048x1536&size_mode=3'
+        icon: 'https://i.imgur.com/nHaM5KP.png'
       },
       {
         position: new google.maps.LatLng(-34.921162, 138.597354),
@@ -47,13 +47,13 @@ function initMap() {
             '<p>Source: https://www.adelaidecasino.com.au/about-us/</p>'+
             '</div>'+
             '</div>',
-        icon: 'https://photos-1.dropbox.com/t/2/AABSPgX6K9CzB1ek1Rj_fhX8nX211EvdKbhb0yFvL0TWgA/12/80587277/png/32x32/1/_/1/2/bar.png/EOiJ1j4YpEUgAigC/rJFezKrxxUrU37gRnvkkb2gWm4dxVzUro1d2VFbZt7E?size=2048x1536&size_mode=3'
+        icon: 'https://i.imgur.com/38IswCN.png'
       },
       {
         position: new google.maps.LatLng(-34.923130, 138.597083),
         type: 'info',
         contentString: '<div id="content">'+
-            '<h1 class="firstHeading">Hinley Street</h1>'+
+            '<h1 class="firstHeading">Hindley Street</h1>'+
             '<div id="bodyContent">'+
             '<p>By the end of the twentieth century Hindley Street had developed a rather unsavoury reputation. Picture theatres had been replaced by more late-night nightclubs, strip clubs and bars. Tattoo parlours and billiard rooms, regarded with suspicion by many, operated alongside the few remaining down-market shops. Eating houses and restaurants continued to be well represented, although they were generally small and inexpensive.</p>'+
             '<p>As the twenty-first century unfolded, the state government, the Adelaide City Council and Hindley Street traders responded to the down-at-heel character of the street with various plans for changing its identity and atmosphere. The process has been led by the arts sector and education institutions. The South Australian Department for the Arts (Arts SA) tookup residence in the still beautiful West’s Coffee Palace, using its shop windows as exhibition spaces. The South Australian Symphony Orchestra and Youth Orchestras have occupied what was West’s Cinema.</p>'+
@@ -62,7 +62,7 @@ function initMap() {
             '<p>Source: http://adelaidia.sa.gov.au/places/hindley-street</p>'+
             '</div>'+
             '</div>',
-        icon: 'https://photos-1.dropbox.com/t/2/AABSPgX6K9CzB1ek1Rj_fhX8nX211EvdKbhb0yFvL0TWgA/12/80587277/png/32x32/1/_/1/2/bar.png/EOiJ1j4YpEUgAigC/rJFezKrxxUrU37gRnvkkb2gWm4dxVzUro1d2VFbZt7E?size=2048x1536&size_mode=3'
+        icon: 'https://i.imgur.com/38IswCN.png'
       },
       {
         position: new google.maps.LatLng(-34.932591, 138.594180),
@@ -75,7 +75,7 @@ function initMap() {
             '<p>Source: http://sahistoryhub.com.au/places/whitmore-square</p>'+
             '</div>'+
             '</div>',
-        icon: 'https://photos-1.dropbox.com/t/2/AACa_r5CUx_ae-Wb3_Tpx4NXWb1tGDO901RGgceZjOJmTw/12/80587277/png/32x32/1/_/1/2/park.png/EOiJ1j4YpEUgAigC/XTzhGggmEd6uI6ZCsSK88YfljTOyUSLUhwt2V32ukcU?size=2048x1536&size_mode=3'
+        icon: 'https://i.imgur.com/nHaM5KP.png'
       }
     ];
 
